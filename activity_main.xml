@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#FFFFFF" android:padding="18dp">
+    <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Countdown Event" android:textColor="#111111" android:textSize="24sp" android:textStyle="bold" android:gravity="center" android:padding="12dp" />
+    <TextView android:id="@+id/subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Time remaining until the event" android:textColor="#444444" android:textSize="15sp" android:gravity="center" android:paddingBottom="18dp" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center" android:weightSum="4">
+        <include layout="@layout/time_box" android:id="@+id/boxDays" />
+        <include layout="@layout/time_box" android:id="@+id/boxHours" />
+        <include layout="@layout/time_box" android:id="@+id/boxMinutes" />
+        <include layout="@layout/time_box" android:id="@+id/boxSeconds" />
+    </LinearLayout>
+    <TextView android:id="@+id/eventDate" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Event date" android:textSize="14sp" android:textColor="#555555" android:gravity="center" android:padding="24dp" />
+</LinearLayout>

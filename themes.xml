@@ -1,0 +1,6 @@
+<resources>
+<style name="Theme.CountdownYellow" parent="android:style/Theme.Material.Light.NoActionBar">
+    <item name="android:fontFamily">sans</item><item name="android:colorAccent">#111111</item>
+    <item name="android:navigationBarColor">#FFFFFF</item><item name="android:statusBarColor">#FFCC00</item><item name="android:windowLightStatusBar">true</item>
+</style>
+</resources>
